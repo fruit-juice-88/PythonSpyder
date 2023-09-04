@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+    background-image: url("https://w.wallhaven.cc/full/gp/wallhaven-gpjo87.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table{
+    background: rgba(255,255,255,0.5);
+    color: black;
+    font-size: 18px;
+}
+caption{
+    font-size: 40px;
+}
