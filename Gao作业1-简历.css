@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+    background-image: url("https://th.wallhaven.cc/lg/d6/d6o77l.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  /*background-color: white;*/
+    background:rgba(255,255,255,0.5);
+  border: 1px solid #cccccc;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333333;
+  margin-right: 20px;
+}
+
+.contact {
+  font-size: 16px;
+  color: #666666;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  border-bottom: 2px solid #cccccc;
+  padding-bottom: 10px;
+}
+
+.section-content {
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.5;
+}
+
+
+
+/*
+<div class="container">：这个div用于创建一个容器，它包含了整个简历的内容，并且设置了一些样式，比如最大宽度、居中对齐、内边距、背景色和边框等。
+<div class="header">：这个div用于创建一个头部，它包含了姓名和联系方式，并且使用了flexbox布局来让它们在水平方向上排列并垂直居中对齐。
+<div class="name">：这个div用于显示姓名，并且设置了一些样式，比如字体大小、粗细、颜色和右侧外边距等。
+<div class="contact">：这个div用于显示联系方式，并且设置了一些样式，比如字体大小和颜色等。
+<div class="section">：这个div用于创建一个分区，它包含了教育背景、工作经历或技能和证书等，并且设置了一些样式，比如上方外边距等。
+<div class="section-title">：这个div用于显示分区的标题，并且设置了一些样式，比如字体大小、粗细、颜色、下方边框和内边距等。
+<div class="section-content">：这个div用于显示分区的内容，并且设置了一些样式，比如字体大小、颜色和行高等。
+如果您想在css中设置或修改div的样式，您可以使用id或class选择器来指定哪些div应该应用哪些样式，比如#id { ... }或.class { ... }。
+
+*/
+
+
+/*
+body { font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 0; }：这个规则集表示给整个网页的body元素设置以下样式：
+font-family: Arial, sans-serif;：设置字体为Arial，如果没有Arial字体，就使用无衬线字体（sans-serif）。
+background-color: #f0f0f0;：设置背景颜色为浅灰色，#f0f0f0是一种十六进制的颜色代码，您可以在[这个网页]上查看更多的颜色代码。
+margin: 0;：设置外边距为0，也就是说，body元素不会和网页的边缘有任何空隙。
+
+
+.container { max-width: 800px; margin: 0 auto; padding: 20px; background-color: white; border: 1px solid #cccccc; }：这个规则集表示给所有有class属性值为container的元素设置以下样式：
+max-width: 800px;：设置最大宽度为800像素，也就是说，如果网页的宽度大于800像素，container元素不会超过800像素，如果网页的宽度小于800像素，container元素会自动适应网页的宽度。
+margin: 0 auto;：设置外边距为0 auto，也就是说，container元素在上下方向上没有外边距，在左右方向上有自动的外边距，这样可以让container元素在水平方向上居中显示。
+padding: 20px;：设置内边距为20像素，也就是说，container元素和它包含的内容之间有20像素的空隙。
+background-color: white;：设置背景颜色为白色。
+border: 1px solid #cccccc;：设置边框为1像素的实线，颜色为淡灰色。
+
+
+.header { display: flex; align-items: center; }：这个规则集表示给所有有class属性值为header的元素设置以下样式：
+display: flex;：设置显示方式为弹性盒子（flexbox），这是一种用于创建灵活的网页布局的技术，您可以在[这个网页]上查看更多关于flexbox的信息和示例。
+align-items: center;：设置弹性盒子中的项目在垂直方向上居中对齐。
+
+
+.name { font-size: 32px; font-weight: bold; color: #333333; margin-right: 20px; }：这个规则集表示给所有有class属性值为name的元素设置以下样式：
+font-size: 32px;：设置字体大小为32像素。
+font-weight: bold;：设置字体粗细为粗体（bold）。
+color: #333333;：设置字体颜色为深灰色。
+margin-right: 20px;：设置右侧外边距为20像素，也就是说，在name元素和它右边的元素之间有20像素的空隙。
+
+
+.contact { font-size: 16px; color: #666666; }：这个规则集表示给所有有class属性值为contact的元素设置以下样式：
+font-size: 16px;：设置字体大小为16像素。
+color: #666666;：设置字体颜色为中灰色。
+
+
+.section { margin-top: 20px; }：这个规则集表示给所有有class属性值为section的元素设置以下样式：
+margin-top: 20px;：设置上方外边距为20像素，也就是说，在section元素和它上面的元素之间有20像素的空隙。
+
+
+.section-title { font-size: 24px; font-weight: bold; color: #333333; border-bottom: 2px solid #cccccc; padding-bottom: 10px; }：这个规则集表示给所有有class属性值为section-title的元素设置以下样式：
+font-size: 24px;：设置字体大小为24像素。
+font-weight: bold;：设置字体粗细为粗体（bold）。
+color: #333333;：设置字体颜色为深灰色。
+border-bottom: 2px solid #cccccc;：设置下方边框为2像素的实线，颜色为淡灰色。
+padding-bottom: 10px;：设置下方内边距为10像素，也就是说，在section-title元素和它下面的内容之间有10像素的空隙。
+
+
+.section-content { font-size: 16px; color: #666666; line-height: 1.5; }：这个规则集表示给所有有class属性值为section-content的元素设置以下样式：
+font-size: 16px;：设置字体大小为16像素。
+color: #666666;：设置字体颜色为中灰色。
+line-height: 1.5;：设置行高为1.5，也就是说，每一行的高度是字体大小的1.5倍。  */
